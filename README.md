@@ -27,10 +27,10 @@ Task list app with auth, comments, and CSV export.
 
 ## Overview
 
-Приложение для личных или командных задач: бэкенд на FastAPI, фронт на React.  
-Backend: async Python (FastAPI), JWT в HTTPOnly cookies, WebSocket, Celery для фоновых задач. Frontend: React, TypeScript, Vite.
+An application for personal or team tasks: backend on FastAPI, front on React.  
+Backend: async Python (FastAPI), JWT in HttpOnly cookies, WebSocket, Celery for background tasks. Frontend: React, TypeScript, Vite.
 
-**Что умеет / What it does:**
+**What it does:**
 
 - User registration and authentication with JWT (access + refresh tokens in HTTPOnly cookies)
 - Full CRUD for tasks with filtering by status/priority and server-side pagination
